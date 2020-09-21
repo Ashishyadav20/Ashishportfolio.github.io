@@ -1,0 +1,397 @@
+::selection{
+	background-color:#fff;
+	color: #000;
+}
+
+*-header{
+	background-color: #212221;
+	font-family: Sanchez, serif;
+}
+
+*{
+	font-family: Sanchez, serif;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur850.ani), url(http://cur.cursors-4u.net/cursors/cur-9/cur850.png), auto !important;
+}
+
+a{
+	color: #fff!important;
+}
+
+.img-parent{
+	border: 2px dashed #fff;
+}
+
+html {
+  font-size: 14px;
+  scroll-behavior: smooth;
+  background-color: #212221;
+  width: 100%;
+}
+@media (max-width: 900px) {
+  html { font-size: 17px; }
+}
+@media (max-width: 748px){
+	html{font-size: 16px;}
+}
+@media (max-width: 400px) {
+  html { font-size: 14px; }
+}
+
+main h1, main h2{
+	font-size: 3rem;
+}
+
+#work div{
+	font-size: 2rem;;
+}
+
+main{
+	background-color: #212221;
+	color: #efefeb;
+}
+
+header{
+	background-blend-mode: luminosity;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://source.unsplash.com/collection/11373758/);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+}
+
+nav {
+  overflow: hidden;
+  background-color: rgba(33, 34, 33, 0.7);
+	z-index: 100;
+	border:3px dashed #fff;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#navbar a{
+	color: #fff;
+	padding: 12px;
+}
+
+header img{
+	width: 20rem;
+}
+
+header{
+	padding: 4rem;
+}
+
+section h1{
+	text-align: center;
+	margin: 32px;
+	margin-top: 50px;
+	letter-spacing: 0.3rem;
+}
+
+#landing figure{
+	margin: 2rem;
+}
+
+#work figure{
+	margin: 1.2rem;
+}
+
+figcaption{
+	text-align:center;
+	color: #efefeb;
+}
+
+#work img{
+	width: 20rem;
+	height: 16rem;
+}
+
+#work div figure:hover{
+	transform: scale(1.04);
+	border-radius: 10px;
+	transition: all 0.2s ease;
+	border:2px dashed #fff;
+}
+
+#work div figure:active,#work div figure:focus{
+	transform:translate(2px,2px);
+	transition: all 0.2s linear;
+}
+
+.containment{
+	height: 80vh;
+	text-align: center;
+	padding-top: 15rem;
+	margin-bottom: 10rem;
+}
+
+._table{
+	padding-top: 4rem;
+	margin:0 auto;
+	height: 30vh;	
+}
+
+._education{
+	padding-top: 15rem;
+}
+
+._education h1{
+	padding-bottom: 2rem;
+}
+
+._education1{
+	padding-bottom: 2rem;
+}
+
+._certifications{
+	padding-top: 7rem;
+}
+
+._certifications1{
+	padding-bottom: 2rem;
+}
+
+._certifications h1{
+	padding-bottom: 2rem;
+}
+
+h1{
+	text-align:center;
+	padding-bottom: 20px;
+}
+
+form{
+	height: 90vh;
+	padding-top: 7rem;
+}
+
+form h1{
+	text-align: center;
+	padding: 20px;
+}
+
+._form div{
+	width: 75%!important;
+	padding:13px;
+	margin:0 auto;
+	color:#fff;
+}
+
+input,textarea{
+	background: #212221!important;
+	color: #fff!important;
+}
+
+.submit{
+	background: transparent;
+	color: #fff;
+	border: #fff dotted 3px;
+	transition: all .3s ease;
+}
+
+.submit:hover{
+	background: #fff;
+	color: #212221;
+	transition: all .3s ease;
+}
+
+.social a{
+	margin: 3rem;
+	padding: 1rem;
+	text-decoration: none;
+	border:2px dashed #fff;
+	border-radius: 100rem;
+	color: #efefeb;
+}
+
+._email, ._instagram, ._github, ._codepen, ._twitter{
+	transition: all .3s ease;
+}
+
+.fa-facebook{
+	padding: 15px;
+}
+
+._facebook:hover{
+	color:#fc3838!important;
+	border-color: #fc3838;
+	transition: all .3s ease;
+	animation: spin 0.5s linear;
+}
+
+@keyframes spin { 
+	100% { 
+	  transform: rotateZ(360deg);
+	}
+  }
+
+._codepen:hover, ._github:hover{
+	border-color:rgba(209, 20, 20, 0.4);
+	animation: spin 0.5s linear;
+	animation: spin 0.5s linear;
+}
+
+._instagram:hover{
+	color:#fc3838!important;
+	border-color: #fc3838;
+	transition: all .3s ease;
+	animation: spin 0.5s linear;
+}
+
+._email:hover{
+	color:#D44638!important;
+	border-color: #D44638;
+	transition: all .3s ease;
+	animation: spin 0.5s linear;
+}
+
+.newsletter button{
+	display:block;
+	color: #000;
+	margin: 1rem auto 4rem;
+	background-color: #efefeb;
+	padding: 13px;	
+	margin: 2rem auto;
+	border-radius: 10px;
+	transition: all .3s ease;
+	font-weight: 700;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.newsletter button:hover{
+	background-color:#212221;
+	border: #fff 2px dashed;
+	color: #fff;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	padding: 10px 7rem;
+	transition: all .3s ease;
+	font-family: Sanchez, sans-serif;
+}
+
+footer{
+	text-align:center;
+	padding-bottom: 5rem;
+	margin: 0 auto;
+	height: 15px;
+}
+
+footer span{
+	text-align: left;
+	padding-right: 6rem;
+}
+
+footer a{
+	text-align: right;
+}
+
+@media (max-width: 900px) {
+  html {font-size: 15px;}
+  header{padding-top:7rem;}
+  form{
+	  padding-top: 12rem;
+  }
+}
+
+@media (min-width: 900px){
+	#nabout{
+		display:none;
+	}
+}
+@media (min-width: 565px){
+	#nabout{
+		display:none;
+	}
+}
+
+@media (max-width:565px){
+	#nabout{
+		display: flex;
+	}
+	#neducation,#nskills,#nsocial,#ncertifications{
+	  display: none;
+	}
+}
+
+@media (min-width: 1200px){
+	._table{
+		width: 70%;
+	}
+}
+
+@media (max-width: 400px) and (max-width: 605px) {
+  html {font-size: 10px;}
+  nav{
+  	font-size: 2rem;
+  }
+  nav a{
+  	padding: 10px;
+  	background-color: transparent;
+  }
+  
+  header img{
+  	margin-top: 10rem;
+  }
+  footer{
+	font-size: 1.5rem;
+  }
+  .containment h2{
+  	font-size: 4rem;
+  }
+  .containment{
+	  height:auto;
+	  margin-bottom: 8rem;
+	  padding-top: 3rem;
+  }
+  ._education{
+	  padding-top: 7rem;
+  }
+  ._education1 img{
+	 margin-left: 20px;
+  }
+  ._certifications{
+	  padding-top: 5rem;
+  }
+  ._fccp{
+	padding: 0!important;
+  }
+  ._fcc{
+	  margin: 0!important;
+  }
+  ._umich{
+	  width: 90%;
+	  margin: 0 auto;
+  }
+  ._umich img{
+	  height: 130px;
+	  width: auto;
+  }
+  ._uofl{
+	  margin-right: 40px;
+  }
+  ._uofl_img{
+	  width: auto;
+	  height: 150px;
+	  padding-right: 0!important;
+  }
+  form{
+	  height: 55vh;
+	  padding-top: 3rem;
+  }
+  ._form div{
+	  width: 87%!important;
+  }
+}
